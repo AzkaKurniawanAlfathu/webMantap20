@@ -113,6 +113,8 @@ p{
 }
 /*end grid*/
 
+
+/* start carousel */
 .carousel-inner{
 	height:100%; 
 }
@@ -121,3 +123,5 @@ p{
 	height: 700px;
 	width: 100%
 }
+
+/* end carousel */

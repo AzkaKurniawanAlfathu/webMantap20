@@ -113,3 +113,11 @@ p{
 }
 /*end grid*/
 
+.carousel-inner{
+	height:100%; 
+}
+
+.carousel-inner img{
+	height: 700px;
+	width: 100%
+}

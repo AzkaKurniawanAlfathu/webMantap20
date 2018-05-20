@@ -123,5 +123,26 @@ p{
 	height: 700px;
 	width: 100%
 }
-
 /* end carousel */
+
+/*footer*/
+#footer{
+	padding-top: 10px;
+	height: 100px;
+	color: black;
+	font-family: century gothic;
+	box-sizing: border-box;
+}
+
+.cpy{
+	padding-top: 5px;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+}
+/*footer end*/
+
+/*separator*/
+.separator{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

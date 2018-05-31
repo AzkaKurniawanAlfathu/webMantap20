@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cek Ongkir</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	
+<style>
+body{
+	background: #F8F9FA;
+}
+.koasal, .ktujuan, .kabtujuan, .kurir{
+	width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.fa-truck{
+	color: blue;
+}
+
+#berat, #ongkir{
+	width: 15%;
+	padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #005BEA;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4A89ED;
+}
+
+.container {
+	margin-top: 50px;
+    border-radius: 5px;
+    background-color: #EAEAEA;
+    padding: 20px;
+}
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1><i class="fas fa-truck fa-2x text-center"></i>Cek Ongkos Kirim Disini !</h1>
+
+		<div class="row">
+			<div class="col-12">
+				<label>Kota Asal</label>
+				<br>
+				<select class="koasal">
+		  			<option value=""></option>
+		  			<option value=""></option>
+		  			<option value=""></option>
+		  			<option value="" selected></option>
+				</select>
+				<br>
+				<label>Provinsi Tujuan</label>
+				<br>
+				<select class="ktujuan">
+		  			<option value=""></option>
+		  			<option value=""></option>
+		  			<option value=""></option>
+		  			<option value="" selected></option>
+				</select>
+
+				<br>
+				<label>Kabupaten Tujuan</label>
+				<br>
+				<select class="kabtujuan">
+		  			<option value=""></option>
+		  			<option value=""></option>
+		  			<option value=""></option>
+		  			<option value="" selected></option>
+				</select>
+
+				<br>
+				<label>Kurir</label>
+				<br>
+				<select class="kurir">
+		  			<option value=""></option>
+		  			<option value=""></option>
+		  			<option value=""></option>
+		  			<option value="" selected></option>
+				</select>
+				<br>
+				<label>Berat (gram)</label>
+				<br>
+				<input id="berat" type="text" name="berat">
+				<br>
+				<label>Ongkir</label>
+				<br>
+				<input id="ongkir" type="text" name="ongkir">
+				<br>
+				<input type="submit" value="Cek Ongkir">
+			</div>		
+		</div>
+	</div>
+
+</body>
+</html>

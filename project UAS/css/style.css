@@ -36,12 +36,14 @@ nav a{
 h1{
 	font-size: 30px;
 	padding: 15px;
-	color: #ff6600;
+	color: #000000;
 	margin-top: 10px;
 	margin-bottom: 5px;
 }
 p{
 	margin:0 auto;
+	padding: 30px;
+}
 }
 .header{
 	margin: 0 auto;
@@ -57,78 +59,74 @@ p{
 	text-align: center;
 	padding: 15px;
 }
-.row1{
+
+/*style img*/
+.gallery{
 	margin: 0 auto;
-	width: 100%; 
-	height: 400px;
-	background: #80ff80;
-	text-align: center;
-	padding: 15px;
+    border: 1px solid #000;
+    float: left;
+    width: 100%;
 }
-.row2{
-	margin: 0 auto;
-	width: 100%; 
-	height: 400px;
-	background: #00ff00;
-	text-align: center;
-	padding: 15px;
+.gallery:hover{
+	border: 1px solid #fff;
 }
-.row3{
-	margin: 0 auto;
-	width: 100%; 
-	height: 400px;
-	background: #00cc00;
-	text-align: center;
-	padding: 15px;
+.gallery img{
+	width: 100%;
+    height: 100%;
 }
+/*end style img*/
+
+/*table menu*/
 .box1{
     margin: 0 auto;
 	width: 100%; 
-	height: 360px;
-	background: #e6f2ff;
+	height: auto;
+	background: #99c9ff;
 	text-align: center;
 	padding: 15px;
 }
 .box2{
     margin: 0 auto;
 	width: 100%; 
-	height: 360px;
-	background: #b3d9ff;
+	height: auto;
+	background: #e6f2ff;
 	text-align: center;
 	padding: 15px;
 }
 .box3{
     margin: 0 auto;
 	width: 100%; 
-	height: 360px;
-	background: #80bfff;
+	height: auto;
+	background: #cce5ff;
 	text-align: center;
 	padding: 15px;
 }
 .box4{
     margin: 0 auto;
 	width: 100%; 
-	height: 360px;
-	background: #4da6ff;
+	height: auto;
+	background: #80bbff;
 	text-align: center;
 	padding: 15px;
 }
 .box5{
     margin: 0 auto;
 	width: 100%; 
-	height: 360px;
-	background: #1a8cff;
+	height: auto;
+	background: #66adff;
 	text-align: center;
 	padding: 15px;
 }
 .box6{
     margin: 0 auto;
 	width: 100%; 
-	height: 360px;
-	background: #0073e6;
+	height: auto;
+	background: #b3d7ff;
 	text-align: center;
 	padding: 15px;
 }
+/*table menu*/
+
 /*end grid*/
 
 

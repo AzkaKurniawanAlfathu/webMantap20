@@ -14,28 +14,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-
-  <script type="text/javascript">
-  var app = angular.module("MyApp", ["ngRoute"]); 
-  app.config(function($routeProvider) {
-    $routeProvider
-    .when("/", {
-      templateUrl : "product.htm"
-    })
-    .when("/product", {
-      templateUrl : "product.htm"
-    })
-    .when("/sparepart", {
-      templateUrl : "sparepart.htm"
-    })
-    .when("/laptop", {
-      templateUrl : "laptop.htm",
-    })
-    .when("/accessories", {
-      templateUrl : "accessories.htm"
-    });
-  });
-  </script>
+  <script src="js/angular.js"></script>
+  
 
 </head>
 <body>
@@ -108,9 +88,9 @@
 		<div class="row">
 			<div class="col-12 text-center separator">
         <h3>
-        <a href="#!product">Product</a> ::
-        <a href="#!sparepart">Sparepart</a> ::
-        <a href="#!laptop">Laptop</a> ::
+        <a href="#!product">Product</a> 
+        <a href="#!sparepart">Sparepart</a> 
+        <a href="#!laptop">Laptop</a> 
         <a href="#!accessories">Accessories</a>
         </h3>
       </div>

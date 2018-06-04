@@ -2,6 +2,16 @@
  	font-family: Helvetica;
  
  }
+
+html, body{
+	background-image: url(../img/dinosaurs.jpg);
+	background-attachment:fixed;
+	background-height:100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
 /*navbar*/
 nav{
 	height: 70px;
@@ -81,7 +91,7 @@ p{
     margin: 0 auto;
 	width: 100%; 
 	height: auto;
-	background: #99c9ff;
+	background:;
 	text-align: center;
 	padding: 15px;
 }
@@ -89,7 +99,7 @@ p{
     margin: 0 auto;
 	width: 100%; 
 	height: auto;
-	background: #e6f2ff;
+	background:;
 	text-align: center;
 	padding: 15px;
 }
@@ -97,7 +107,7 @@ p{
     margin: 0 auto;
 	width: 100%; 
 	height: auto;
-	background: #cce5ff;
+	background:;
 	text-align: center;
 	padding: 15px;
 }
@@ -105,7 +115,7 @@ p{
     margin: 0 auto;
 	width: 100%; 
 	height: auto;
-	background: #80bbff;
+	background:;
 	text-align: center;
 	padding: 15px;
 }
@@ -113,7 +123,7 @@ p{
     margin: 0 auto;
 	width: 100%; 
 	height: auto;
-	background: #66adff;
+	background:;
 	text-align: center;
 	padding: 15px;
 }
@@ -121,7 +131,7 @@ p{
     margin: 0 auto;
 	width: 100%; 
 	height: auto;
-	background: #b3d7ff;
+	background:;
 	text-align: center;
 	padding: 15px;
 }
@@ -136,7 +146,7 @@ p{
 }
 
 .carousel-inner img{
-	height: 700px;
+	height: 560px;
 	width: 100%
 }
 /* end carousel */
@@ -172,16 +182,19 @@ footer a:hover{
 	height: 50px;
 }
 .f3{
-	padding-top: 10px;
+	padding-top: 20px;
 	width: 30%;
 }
-.f5{	
+.f4{
+	padding-top: 10px;
+}
+.f5{
 	border-bottom: 1px solid black;
 	width: 70%;
-	height: 20px;
+	height: 50px;
 }
 .f6{
-	margin-top: 10px;
+	margin-top: 40px;
 	padding-bottom: 20px;
 }
 .f1 a{
@@ -201,4 +214,24 @@ footer a:hover{
 .separator{
 	padding-top: 10px;
 	padding-bottom: 10px;
+
+	
+
 }
+
+.separator a{
+	color: white;
+	padding: 10px;
+
+}
+
+.separator a:hover{
+	text-decoration: none;
+	color: yellow;
+}
+
+.box2, .box3, .box6 p, h1{
+	color: white;
+}
+
+

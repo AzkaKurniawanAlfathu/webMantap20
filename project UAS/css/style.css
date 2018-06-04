@@ -172,19 +172,16 @@ footer a:hover{
 	height: 50px;
 }
 .f3{
-	padding-top: 20px;
+	padding-top: 10px;
 	width: 30%;
 }
-.f4{
-	padding-top: 10px;
-}
-.f5{
+.f5{	
 	border-bottom: 1px solid black;
 	width: 70%;
-	height: 50px;
+	height: 20px;
 }
 .f6{
-	margin-top: 40px;
+	margin-top: 10px;
 	padding-bottom: 20px;
 }
 .f1 a{

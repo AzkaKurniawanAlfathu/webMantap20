@@ -1,7 +1,9 @@
 .contact{
 	background-image: url("../img/smartphone.jpg");
 	background-size: cover;
-	height: 682px;
+	padding-bottom: 100px;
+	height: 100%;
+	background-attachment:fixed;
 	color: #fff;
 }
 .label .title, .label .address, .label .subc, .input{

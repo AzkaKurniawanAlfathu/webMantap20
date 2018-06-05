@@ -151,6 +151,13 @@ p{
 }
 /* end carousel */
 
+/* Google Map API*/
+#map {
+	width: 100%;
+	height: 400px;
+}
+/* Google Map API end*/
+
 /*footer*/
 footer{
 	background-color: #eaeaea;

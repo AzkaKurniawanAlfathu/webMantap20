@@ -1,0 +1,30 @@
+.contact{
+	background-image: url("../img/smartphone.jpg");
+	background-size: cover;
+	height: 682px;
+	color: #fff;
+}
+.label .title, .label .address, .label .subc, .input{
+	margin-top: 20px;
+}
+.contact .subc{
+	font-weight: bold;
+}
+input,textarea{
+	color: #fff;
+	background-color: rgba(0,0,0,0.2);
+	border: none;
+	width: 30%;
+	padding: 10px;
+}
+input:focus,textarea:focus{
+	outline: none;
+}
+.btn{
+	background-color: #3ABFAA;
+	border: none;
+	color: #fff;
+	width: 30%;
+	padding: 10px;
+	border-radius: 0px;
+}

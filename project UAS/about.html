@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Us</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<style>
+		*{
+			font-family: century ghotic;
+			color: white;
+			background-color: #2B2B2B;
+		}
+		.image{
+
+			width: 100%;
+		}
+		.text h2{
+			color: #957B5F;
+		}
+		.text{
+			width: 100%;
+		}
+		.a{
+			margin-bottom: 100px;
+		}
+		.title{
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		.g{
+			width: 280px;
+			height: 280px;
+			background-color: #957B5F;
+		}
+	</style>
+</head>
+<body>
+
+	<div ng-app="myApp" ng-controller="myCtrl"> 
+		<div class="row">
+			<div class="col-12 text-center title">
+				<h1>About Us</h1>
+			</div>
+		</div>
+		<div class="row c">
+			<div class="col-3 offset-2">
+				<h2>TEAM & WORK WEBSITE</h2>
+			</div>
+			<div class="col-4">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit illo culpa alias facilis autem aliquam quo nobis facere iure, magni, earum ad at reiciendis perferendis dolor quidem mollitia placeat nostrum?</p><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum veniam explicabo velit quo, nostrum ut, ullam doloribus aliquid, accusamus esse culpa vero! Quod eaque natus provident fugit in repudiandae deleniti!</p><br>
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-3 offset-2">
+				<p>OUR TEAM</p>
+			</div>
+		</div>
+		
+		<div class="row a">
+			<div class="col-3 offset-2 image">
+				<div class="g"></div>
+			</div>
+			<div class="col-4 text">
+				<h2>{{about[0].Nama}}</h2><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, dolorem illum! Sequi quia odio ipsam magnam, provident, consectetur, labore nam iusto voluptas libero quidem repudiandae laborum natus nesciunt accusantium reprehenderit.</p><br>
+				<p>{{about[0].NIM}}<br>{{about[0].Kelas}}</p>
+
+			</div>
+		</div>
+		<div class="row a">
+			<div class="col-3 offset-2 image">
+				<div class="g"></div>
+			</div>
+			<div class="col-4 text">
+				<h2>{{about[1].Nama}}</h2><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, dolorem illum! Sequi quia odio ipsam magnam, provident, consectetur, labore nam iusto voluptas libero quidem repudiandae laborum natus nesciunt accusantium reprehenderit.</p><br>
+				<p>{{about[1].NIM}}<br>{{about[1].Kelas}}</p>
+
+			</div>
+		</div>
+		<div class="row a">
+			<div class="col-3 offset-2 image">
+				<div class="g"></div>
+			</div>
+			<div class="col-4 text">
+				<h2>{{about[2].Nama}}</h2><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, dolorem illum! Sequi quia odio ipsam magnam, provident, consectetur, labore nam iusto voluptas libero quidem repudiandae laborum natus nesciunt accusantium reprehenderit.</p><br>
+				<p>{{about[2].NIM}}<br>{{about[2].Kelas}}</p>
+
+			</div>
+		</div>
+		<div class="row a">
+			<div class="col-3 offset-2 image">
+				<div class="g"></div>
+			</div>
+			<div class="col-4 text">
+				<h2>{{about[3].Nama}}</h2><br>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, dolorem illum! Sequi quia odio ipsam magnam, provident, consectetur, labore nam iusto voluptas libero quidem repudiandae laborum natus nesciunt accusantium reprehenderit.</p><br>
+				<p>{{about[3].NIM}}<br>{{about[3].Kelas}}</p>
+
+			</div>
+		</div>
+	</div>
+
+	<script>
+	var app = angular.module('myApp', []);
+	app.controller('myCtrl', function($scope, $http) {
+    $http.get("https://api.myjson.com/bins/ehrhm")
+    .then(function(response) {
+        $scope.about = response.data;
+    	});
+	});
+	</script>
+</body>
+</html>

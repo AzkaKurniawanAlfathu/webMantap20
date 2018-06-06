@@ -94,6 +94,16 @@ p{
 	width: 50%;
     height: 50%;
 }
+.galleryx2{
+	margin: 0 auto;
+    border: 0px solid #000;
+    float: left;
+    width: 100%;
+}
+.galleryx2 img{
+	width: 70%;
+    height: 70%;
+}
 /*end style img*/
 
 /*table menu*/
@@ -152,6 +162,14 @@ p{
 	background:#fff;
 	text-align: center;
 	padding: 100px;
+}
+.detail2{
+    margin: 0 auto;
+	width: 100%; 
+	height: auto;
+	background:#fff;
+	text-align: center;
+	padding-bottom: 30px;
 }
 .detailblack{
     margin: 0 auto;

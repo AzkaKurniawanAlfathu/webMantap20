@@ -17,6 +17,12 @@
 .contact .subc{
 	font-weight: bold;
 }
+.navbar a{
+	color: black;
+}
+.navbar a:hover{
+	color: blue;
+}
 input,textarea{
 	background-color: rgba(0,0,0,0.2);
 	border: none;

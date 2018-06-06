@@ -84,6 +84,16 @@ p{
 	width: 100%;
     height: 100%;
 }
+.galleryx{
+	margin: 0 auto;
+    border: 1px solid #000;
+    float: left;
+    width: 100%;
+}
+.galleryx img{
+	width: 50%;
+    height: 50%;
+}
 /*end style img*/
 
 /*table menu*/
@@ -140,6 +150,14 @@ p{
 	width: 100%; 
 	height: auto;
 	background:#fff;
+	text-align: center;
+	padding: 100px;
+}
+.detailblack{
+    margin: 0 auto;
+	width: 100%; 
+	height: auto;
+	background:#000;
 	text-align: center;
 	padding: 100px;
 }

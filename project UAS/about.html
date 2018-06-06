@@ -86,50 +86,18 @@
 			</div>
 		</div>
 		
-		<div class="row a">
-			<div class="col-3 offset-2 image">
-				<div class="g"></div>
+		<div ng-repeat="z in about">
+			<div class="row a">
+				<div class="col-3 offset-2 image">
+					<div class="g"></div>
+				</div>
+				<div class="col-4 text">
+					<h2>{{z.Nama}}</h2><br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, dolorem illum! Sequi quia odio ipsam magnam, provident, consectetur, labore nam iusto voluptas libero quidem repudiandae laborum natus nesciunt accusantium reprehenderit.</p><br>
+					<p>{{z.NIM}}<br>{{z.Kelas}}</p>
+				</div>
 			</div>
-			<div class="col-4 text">
-				<h2>{{about[0].Nama}}</h2><br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, dolorem illum! Sequi quia odio ipsam magnam, provident, consectetur, labore nam iusto voluptas libero quidem repudiandae laborum natus nesciunt accusantium reprehenderit.</p><br>
-				<p>{{about[0].NIM}}<br>{{about[0].Kelas}}</p>
-
-			</div>
-		</div>
-		<div class="row a">
-			<div class="col-3 offset-2 image">
-				<div class="g"></div>
-			</div>
-			<div class="col-4 text">
-				<h2>{{about[1].Nama}}</h2><br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, dolorem illum! Sequi quia odio ipsam magnam, provident, consectetur, labore nam iusto voluptas libero quidem repudiandae laborum natus nesciunt accusantium reprehenderit.</p><br>
-				<p>{{about[1].NIM}}<br>{{about[1].Kelas}}</p>
-
-			</div>
-		</div>
-		<div class="row a">
-			<div class="col-3 offset-2 image">
-				<div class="g"></div>
-			</div>
-			<div class="col-4 text">
-				<h2>{{about[2].Nama}}</h2><br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, dolorem illum! Sequi quia odio ipsam magnam, provident, consectetur, labore nam iusto voluptas libero quidem repudiandae laborum natus nesciunt accusantium reprehenderit.</p><br>
-				<p>{{about[2].NIM}}<br>{{about[2].Kelas}}</p>
-
-			</div>
-		</div>
-		<div class="row a">
-			<div class="col-3 offset-2 image">
-				<div class="g"></div>
-			</div>
-			<div class="col-4 text">
-				<h2>{{about[3].Nama}}</h2><br>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, dolorem illum! Sequi quia odio ipsam magnam, provident, consectetur, labore nam iusto voluptas libero quidem repudiandae laborum natus nesciunt accusantium reprehenderit.</p><br>
-				<p>{{about[3].NIM}}<br>{{about[3].Kelas}}</p>
-
-			</div>
-		</div>
+		</div>	
 	</div>
 
 	<script>

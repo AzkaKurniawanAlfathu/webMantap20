@@ -8,6 +8,8 @@
 <link rel="stylesheet" type="text/css" href="css/contsty.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-expand-md fixed-top justify-content-between">
@@ -28,7 +30,7 @@
     </ul>
 </nav> 
 
-    <div class="contact">
+    <div class="contact" data-aos="zoom-out" data-aos-duration="2000">
         <div class="row">
             <div class="col-12 text-center label">
                 <h1 class="title"> CONTACT US</h1>
@@ -47,6 +49,9 @@
                 </form>
             </div>
         </div>
+        <script>
+        AOS.init();
+    </script>
     </div>
 </body>
 </html>

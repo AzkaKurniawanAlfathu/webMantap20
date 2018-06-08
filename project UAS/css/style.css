@@ -73,20 +73,16 @@ p{
 /*style img*/
 .gallery{
 	margin: 0 auto;
-    border: 1px solid #000;
     float: left;
     width: 100%;
 }
-.gallery:hover{
-	border: 1px solid #fff;
-}
+
 .gallery img{
 	width: 100%;
     height: 100%;
 }
 .galleryx{
 	margin: 0 auto;
-    border: 1px solid #000;
     float: left;
     width: 100%;
 }
@@ -96,7 +92,6 @@ p{
 }
 .galleryx2{
 	margin: 0 auto;
-    border: 0px solid #000;
     float: left;
     width: 100%;
 }
@@ -119,7 +114,7 @@ p{
     margin: 0 auto;
 	width: 100%; 
 	height: auto;
-	background:;
+	
 	text-align: center;
 	padding: 15px;
 }
@@ -271,6 +266,8 @@ footer a:hover{
 .separator{
 	padding-top: 10px;
 	padding-bottom: 10px;
+	background:rgba(34, 34, 34, 0.3);
+
 }
 .separator a{
 	color: white;
@@ -278,10 +275,15 @@ footer a:hover{
 }
 .separator a:hover{
 	text-decoration: none;
-	color: yellow;
+	color:#2BE419;
 }
 .box2, .box3, .box6 p, h1{
-	color: white;
+	color:white;
+}
+
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+	background:rgba(34, 34, 34, 0.3);
 }
 
 
